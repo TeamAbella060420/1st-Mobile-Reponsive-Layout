@@ -1,0 +1,199 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+body {
+    padding: 5%;
+}
+ul {
+    list-style-type: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 900;
+    color: rgb(78, 76, 76);
+    margin: 0;
+    display: block;
+}
+li {
+    padding: 2.5%;
+}
+.profile-img {
+    padding: 1rem;
+    max-width: 15rem;
+}
+#portfolio {
+    margin: 70px 0 40px 0;
+    font-size: 16px;
+    font-weight: 900;
+}
+.title {
+    font-size: 35px;
+}
+.contact {
+    font-size: 13px;
+    font-weight:900;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(16, 217, 231);
+}
+footer {
+    border-top: 1px solid rgb(182, 181, 181);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+.contact-info {
+    font-weight: bold;
+    color: rgb(150, 142, 142);
+}
+.nav-footer {
+    display:none;
+}
+@media screen and (min-width: 768px) {
+    body {
+        padding: 5%;
+    }
+    img {
+        transition-duration: .5s ;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .section-1 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .profile-img {
+        max-width: 38%;
+    }
+    .bio {
+        width: 53%;
+        text-align:left;
+        padding-right: 25px;
+        font-size: 22px;
+        color: rgb(158, 158, 158);
+    }
+    .project {
+        float: left;
+        width: 46%;
+        margin: auto;
+    }
+    .project:nth-child(even) {
+        margin-right: 6%;
+    }
+    .port-img {
+        max-width: 22rem;
+        margin-right: 1%;
+    }
+    .port-text {
+        padding: 10px 20px 50px 0;
+    }
+    .contact-container {
+        padding: 4rem;
+        font-size: 22px;
+    }
+    .contact-word {
+        color: rgb(151, 148, 148);
+    }
+    .top {
+        display: none;
+    }
+    .nav-footer {
+        display: flex;
+        margin-left: 46%;
+        font-size: 13px;
+    }
+    .name {
+       padding-top: 5px;
+       font-size: 15px;
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (min-width: 1024px) {
+    * {
+        color: rgb(243, 212, 212);
+        background-color: rgb(4, 17, 16);
+    }
+    body {
+        margin: initial;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    .nav-footer {
+        margin: initial;
+        align-items: center;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav {
+        margin: initial;
+        align-items: center;   
+    }
+    .title {
+        font-size: 25px;
+        padding-top: 12px;
+    }
+    .section-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+        ul li {
+        width: 7rem;
+      }
+    .profile-img {
+        width: 60%;
+    }
+    .bio {
+        font-size: 27px;
+        color: white;
+    }
+    .project {
+        width: 32%;
+        margin: auto;
+    }
+    .project:nth-child(even) {
+        margin-right: initial;
+    }
+    .port-img {
+        max-width: 23rem;
+        margin-left: 2rem;      
+    }
+    h3 {
+        margin-left: 2rem;
+    }
+    .port-text {
+        padding: 10px 20px 50px 0;
+        margin-left: 2rem;
+        color: white;
+    }
+    .contact-container {
+        padding: 4rem;
+        font-size: 22px;
+    }
+    h1, h2, h3 {
+        color: white;
+    }
+    .contact-word {
+        padding: 10px 240px 10px 240px;
+        color: white;
+    }
+   
+}
